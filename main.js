@@ -21,7 +21,8 @@
     document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
     //Función post fecha
     if (distance < 0) {
-    document.getElementById("headline").innerText = "Ahí va el abrazo!";
+    document.getElementById("headline1").innerText = "Ahí va el abrazo!";
+    document.getElementById("headline2").innerText = " ";
     document.getElementById("countdown").style.display = "none";
     document.getElementById("content").style.display = "block";
     clearInterval(x);
