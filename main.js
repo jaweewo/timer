@@ -7,7 +7,7 @@
     dd = String(today.getDate()).padStart(2, "0"),
     mm = String(today.getMonth() + 1).padStart(2, "0"),
     yyyy = today.getFullYear(),
-    dayMonth = "05/28/",
+    dayMonth = "06/07/",
     fecha = dayMonth + yyyy;
     today = mm + "/" + dd + "/" + yyyy;
     
