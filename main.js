@@ -7,7 +7,7 @@
     dd = String(today.getDate()).padStart(2, "0"),
     mm = String(today.getMonth() + 1).padStart(2, "0"),
     yyyy = today.getFullYear(),
-    dayMonth = "06/07/",
+    dayMonth = "03/01",
     fecha = dayMonth + yyyy;
     today = mm + "/" + dd + "/" + yyyy;
     
@@ -21,7 +21,7 @@
     document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
     //Función post fecha
     if (distance < 0) {
-    document.getElementById("headline1").innerText = "Ahí va el abrazo!";
+    document.getElementById("headline1").innerText = "Ahí va Javipatitos con 300 abrazos!";
     document.getElementById("headline2").innerText = " ";
     document.getElementById("countdown").style.display = "none";
     document.getElementById("content").style.display = "block";
