@@ -9,7 +9,7 @@
         mm = String(today.getMonth() + 1).padStart(2, "0"),
         yyyy = today.getFullYear() + 1; // Año siguiente
 
-    let dayMonth = "03/01",
+    let dayMonth = "01/03",
         fecha = dayMonth + "/" + yyyy; // Fecha de fin con el año siguiente
 
     const countDown = new Date(fecha).getTime(),
