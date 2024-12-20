@@ -9,8 +9,8 @@
         mm = String(today.getMonth() + 1).padStart(2, "0"),
         yyyy = today.getFullYear() + 1; // Año siguiente
 
-    let dayMonth = "01/03",
-        fecha = dayMonth + "/" + yyyy; // Fecha de fin con el año siguiente
+    // Fecha de fin: 1 de enero del año siguiente a las 9:00 AM GMT 0
+    let fecha = `January 1, ${yyyy} 09:00:00 GMT+0000`;
 
     const countDown = new Date(fecha).getTime(),
         x = setInterval(function() {
