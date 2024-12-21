@@ -10,7 +10,7 @@
         yyyy = today.getFullYear() + 1; // Año siguiente
 
     // Fecha de fin: 1 de enero del año siguiente a las 9:00 AM GMT 0
-    let fecha = `January 1, ${yyyy} 09:00:00 GMT+0000`;
+    let fecha = `January 3, ${yyyy} 09:00:00 GMT+0000`;
 
     const countDown = new Date(fecha).getTime(),
         x = setInterval(function() {
