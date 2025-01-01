@@ -7,7 +7,7 @@
     let today = new Date(),
         dd = String(today.getDate()).padStart(2, "0"),
         mm = String(today.getMonth() + 1).padStart(2, "0"),
-        yyyy = today.getFullYear() + 1; // Año siguiente
+        yyyy = today.getFullYear(); // Año siguiente
 
     // Fecha de fin: 1 de enero del año siguiente a las 9:00 AM GMT 0
     let fecha = `January 3, ${yyyy} 09:00:00 GMT+0000`;
